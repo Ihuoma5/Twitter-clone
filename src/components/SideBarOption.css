@@ -5,24 +5,28 @@
 }
 
 .sidebarOption:hover {
-    background-color: #e8f5fe;
+    background-color: #cac6c6;
     border-radius: 20px;
-    color: var(--twiter-color);
+    width: fit-content;
     transition: color 100ms ease-out;
 }
-/* .sidebarOption h2:hover {
 
-} */
 .sidebarOption  .MuiSvgIcon-root {
-    padding: 20px;
+    padding: 13px;
 }
 
 .sidebarOption h2 {
-    font-weight: 800;
     font-size: 20px;
     margin-right: 20px;
 }
 .sidebarOption--active {
-    color: var(--twiter-color);
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+@media screen and (max-width: 1024px) {
+    .sidebarOption  h2 {
+        display: none;
+    }
 }
 

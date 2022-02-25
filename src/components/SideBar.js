@@ -12,11 +12,13 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { Button} from "@material-ui/core"
 import SideBarOption from './SideBarOption';
 
-function NavBar() {
+
+
+function SideBar() {
   return (
     <div className='sidebar'>
       {/* {Twitter Icon} */}
-      <TwitterIcon />
+      <TwitterIcon className='sidebar-twitterIcon'/>
       {/* {SideBar option} */}
       <SideBarOption active Icon={HomeIcon} text ="Home"/>
       <SideBarOption Icon={TagIcon} text ="Explore"/>
@@ -29,8 +31,10 @@ function NavBar() {
       
       {/* {Button -> tweet} */}
       <Button variant="outlined" className='sidebar-button'>Tweet</Button>
+
+  
     </div>
   )
 }
 
-export default NavBar;
+export default SideBar;
