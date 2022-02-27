@@ -3,17 +3,45 @@
     border-bottom: 4px solid var(--twitter-background);  
     padding-right: 10px;
 }
-.tweetBox form {
+/* .tweetBox form {
     display: flex;
     flex-direction: row;
-}
-.tweetBox_input {
-    padding: 20px;
-    display: flex;
-}
+} */
+
 .tweetBox_input input {
     flex: 1;
     border: none;
     margin-left: 20px;
     font-size: 20px;
+}
+.tweetbox-header {
+    padding: 20px 0;
+    display: flex;
+}
+.tweetbox-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tweetbox-footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+}
+
+.tweetbox-footer ul li {
+    margin-right: 5px;
+}
+
+.tweet-button {
+    background-color: var(--twiter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    width: 100px !important;
+    margin-top: 20px !important;
 }
