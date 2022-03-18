@@ -14,7 +14,7 @@ function TweetBox() {
         <form>
             <div className='tweetBox_input'>
             <div className='tweetbox-header'>
-            <Avatar src='https://twitter.com/ihu_oma5'/>
+            <Avatar src='https://ihuoma5.netlify.app/images/profile.jpeg'/>
             <input placeholder="What's happening?"></input>
             </div>
             <div className='tweetbox-footer'>

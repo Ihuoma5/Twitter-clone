@@ -1,5 +1,6 @@
 import React from 'react';
 import TweetBox from './TweetBox';
+import Post from './Post';
 import StarBorderRoundedIcon from '@mui/icons-material/StarBorderRounded';
 
 import './Feed.css'
@@ -14,6 +15,7 @@ function Feed() {
       {/* {Tweet box} */}
       <TweetBox />
       {/* {Post} */}
+      <Post />
   </div>;
 }
 
