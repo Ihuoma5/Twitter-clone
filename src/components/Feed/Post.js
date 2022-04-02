@@ -10,7 +10,7 @@ function Post() {
   return (
     <div className='post'>
       <div className='post_avatar'>
-      <Avatar src='https://ihuoma5.netlify.app/images/profile.jpeg' alt="profile"/>
+      <Avatar  alt="profile"/>
       </div>
       <div className='post_body'>
       <div className='post_header'>
