@@ -10,7 +10,7 @@ function Post() {
   return (
     <div className='post'>
       <div className='post_avatar'>
-      <Avatar src='https://ihuoma5.netlify.app/images/profile.jpeg' alt='profile'/>
+      <Avatar src='https://ihuoma5.netlify.app/images/profile.jpeg' alt="profile"/>
       </div>
       <div className='post_body'>
       <div className='post_header'>
@@ -21,7 +21,7 @@ function Post() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> Aenean lacus massa, sollicitudin vitae magna eu, aliquam luctus dui. Cras eu nisl sapien. <br></br> Curabitur sapien sapien,</p>
         </div>
       </div>
-      <img src='https://ihuoma5.netlify.app/images/profile.jpeg' alt='profile' className='postImage'/>
+      <img src='https://ihuoma5.netlify.app/images/profile.jpeg' alt="profile" className='postImage'/>
       <div className='post_footer'>
         <InsertCommentIcon fontSize='small'/>
         <LoopIcon fontSize='small'/>
