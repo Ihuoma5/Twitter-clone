@@ -10,7 +10,7 @@ function Post() {
   return (
     <div className='post'>
       <div className='post_avatar'>
-      <Avatar  alt="profile"/>
+      <Avatar/>
       </div>
       <div className='post_body'>
       <div className='post_header'>
